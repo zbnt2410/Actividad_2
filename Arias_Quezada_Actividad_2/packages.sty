@@ -1,0 +1,110 @@
+% =============================================
+% ARCHIVO OPTIMIZADO: packages.sty  
+% CONFIGURACIÓN PARA FORMATO DE INFORME
+% =============================================
+\ProvidesPackage{packages}
+
+% --- PAQUETES BÁSICOS ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{framed}
+\usepackage{lipsum}
+
+% --- PAQUETES PARA TABLAS ---
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{threeparttable}
+\usepackage[flushleft]{threeparttablex}
+
+% --- PAQUETES PARA FORMATO DOCUMENTO ---
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage[titletoc]{appendix}
+
+% --- PAQUETES PARA FIGURAS Y LEYENDAS ---
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+
+% --- PAQUETES PARA CITAS Y REFERENCIAS ---
+\usepackage{natbib}
+\usepackage[natbibapa]{apacite}
+\usepackage[
+    colorlinks=false,
+    pdfborder={0 0 0},
+    citebordercolor={black},
+    urlbordercolor={black}
+]{hyperref}
+
+% ========== CONFIGURACIONES PRINCIPALES ==========
+
+% --- CONFIGURACIÓN DE IDIOMA ---
+\addto\captionsspanish{
+  \renewcommand{\tablename}{Tabla}
+  \renewcommand{\listtablename}{Lista de Tablas}
+  \renewcommand{\contentsname}{Índice General}
+  \renewcommand{\listfigurename}{Lista de Figuras}
+}
+
+% --- CONFIGURACIÓN DE PÁGINA ---
+\geometry{a4paper, left=3cm, right=2.5cm, top=3cm, bottom=3cm}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\leftmark}
+\lhead{\rightmark}
+\cfoot{\thepage}
+
+% --- CONFIGURACIÓN DE TÍTULOS ---
+\titleformat{\chapter}[display]
+    {\normalfont\huge\bfseries}
+    {}
+    {0pt}
+    {\Huge}
+\titlespacing*{\chapter}{0pt}{-30pt}{20pt}
+
+\setcounter{secnumdepth}{3} % Hasta subsubsecciones
+\renewcommand{\thechapter}{\arabic{chapter}}
+\renewcommand{\thesection}{\thechapter.\arabic{section}}
+
+% --- CONFIGURACIÓN DE LEYENDAS ---
+\captionsetup{
+  labelfont=bf,
+  font=small,
+  labelsep=colon,
+  justification=raggedright,
+  singlelinecheck=false
+}
+
+\captionsetup[figure]{
+  format=hang,
+  width=\linewidth
+}
+
+\captionsetup[table]{
+  textfont=it
+}
+
+% --- CONFIGURACIÓN DE LISTAS (TOC, LOF, LOT) ---
+\renewcommand{\cftfigpresnum}{Figura~}
+\renewcommand{\cfttabpresnum}{Tabla~}
+\setlength{\cftfignumwidth}{3cm}
+\setlength{\cfttabnumwidth}{3cm}
+
+% --- COMANDOS PERSONALIZADOS ---
+\newcommand{\figsource}[1]{%
+    \vspace{-5pt}%
+    \caption*{\footnotesize\textit{Fuente:} #1}%
+}
+
+% --- CONFIGURACIÓN DE CITAS ---
+\setcitestyle{round}
+\bibliographystyle{apacite}
+

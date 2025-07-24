@@ -1,0 +1,138 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+{Google Cloud}%
+}{%
+{Google Cloud}%
+}{%
+{\protect \APACyear {2025}}%
+}]{%
+googletts2025}
+\APACinsertmetastar {%
+googletts2025}%
+\begin{APACrefauthors}%
+{Google Cloud}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+\APACrefbtitle {Google Cloud Text-to-Speech API Documentation.} {Google cloud
+  text-to-speech api documentation.}
+\newblock
+\APAChowpublished {\url{https://cloud.google.com/text-to-speech/docs}}.
+\newblock
+\APACrefnote{Consultado el 20 de julio de 2025}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kim%
+\ \BBA {} Torres%
+}{%
+Kim%
+\ \BBA {} Torres%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+kim2024responsive}
+\APACinsertmetastar {%
+kim2024responsive}%
+\begin{APACrefauthors}%
+Kim, S.%
+\BCBT {}\ \BBA {} Torres, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Responsive Web Applications for Special Needs: A Case
+  Study in Speech Development} {Responsive web applications for special needs:
+  A case study in speech development}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 16th International Conference on Web
+  Engineering} {Proceedings of the 16th international conference on web
+  engineering}\ (\BPGS\ 215--228).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Liu%
+, Zhang%
+\BCBL {}\ \BBA {} Chen%
+}{%
+Liu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+liu2023generative}
+\APACinsertmetastar {%
+liu2023generative}%
+\begin{APACrefauthors}%
+Liu, W.%
+, Zhang, H.%
+\BCBL {}\ \BBA {} Chen, X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Generative AI in Speech Therapy: A Comprehensive Review}
+  {Generative ai in speech therapy: A comprehensive review}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Neural Systems and Rehabilitation
+  Engineering}{31}{}{1500--1513}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/TNSRE.2023.3245678} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Martínez%
+\ \BBA {} Ruiz%
+}{%
+Martínez%
+\ \BBA {} Ruiz%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+martinez2022assistive}
+\APACinsertmetastar {%
+martinez2022assistive}%
+\begin{APACrefauthors}%
+Martínez, L.%
+\BCBT {}\ \BBA {} Ruiz, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Assistive Technologies and AI for Children with
+  Developmental Disorders} {Assistive technologies and ai for children with
+  developmental disorders}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Assistive Technologies}{14}{3}{134--149}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{OpenAI}%
+}{%
+{OpenAI}%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+openai2024api}
+\APACinsertmetastar {%
+openai2024api}%
+\begin{APACrefauthors}%
+{OpenAI}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+\APACrefbtitle {OpenAI API Overview.} {Openai api overview.}
+\newblock
+\APAChowpublished {\url{https://platform.openai.com/docs/api-reference}}.
+\newblock
+\APACrefnote{Consultado el 20 de julio de 2025}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

@@ -1,0 +1,46 @@
+\documentclass[12pt, a4paper, oneside]{book}
+
+% Carga de paquetes desde un archivo externo packages.sty
+\usepackage{packages} 
+
+% Datos del documento
+\title{Título del Informe}
+\author{Autor del Informe}
+\date{\today}
+
+\begin{document}
+
+% Portada
+\include{0_portada}
+
+% Páginas preliminares
+\frontmatter
+\tableofcontents
+\listoffigures
+\listoftables
+
+% Contenido principal
+\mainmatter
+\include{1_introduccion}
+\include{2_objetivos}
+\include{3_metodologia}
+\include{4_resultados}
+\include{5_discusion}
+\include{6_conclusiones}
+
+% Bibliografía
+
+\backmatter
+\bibliographystyle{apacite}
+\renewcommand{\bibname}{Referencias Bibliográficas}
+\addcontentsline{toc}{chapter}{Referencias Bibliográficas}
+\bibliography{bibliografia}
+
+% Anexos
+\appendix
+\cleardoublepage
+\phantomsection % Para que hyperref funcione correctamente con la tabla de contenidos
+\addcontentsline{toc}{chapter}{Anexos} % Añade 'Anexos' al índice
+\include{anexos} % Archivo anexos.tex sin \chapter ni \addcontentsline
+
+\end{document}

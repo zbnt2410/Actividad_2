@@ -1,0 +1,91 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apacite.bst
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: 0_portada.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: 1_introduccion.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: 2_objetivos.aux
+Reallocating 'name_of_file' (item size: 1) to 18 items.
+A level-1 auxiliary file: 3_metodologia.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+A level-1 auxiliary file: 4_resultados.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: 5_discusion.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: 6_conclusiones.aux
+Illegal, another \bibstyle command---line 21 of file main.aux
+ : \bibstyle
+ :          {apacite}
+I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Illegal, another \bibstyle command---line 24 of file main.aux
+ : \bibstyle
+ :          {apacite}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 25 of file main.aux
+ : \bibdata
+ :         {bibliografia}
+I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+A level-1 auxiliary file: anexos.aux
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: bibliografia.bib
+Warning--I didn't find a database entry for "doe2023"
+Warning--I didn't find a database entry for "zoph2018learning"
+Warning--I didn't find a database entry for "smith2021ai"
+Warning--I didn't find a database entry for "garcia2022speech"
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+You've used 5 entries,
+            6951 wiz_defined-function locations,
+            1311 strings with 11683 characters,
+and the built_in function-call counts, 8606 in all, are:
+= -- 1077
+> -- 72
+< -- 372
++ -- 350
+- -- 14
+* -- 520
+:= -- 1554
+add.period$ -- 24
+call.type$ -- 5
+change.case$ -- 86
+chr.to.int$ -- 0
+cite$ -- 10
+duplicate$ -- 198
+empty$ -- 362
+format.name$ -- 108
+if$ -- 1682
+int.to.chr$ -- 0
+int.to.str$ -- 15
+missing$ -- 0
+newline$ -- 129
+num.names$ -- 40
+pop$ -- 245
+preamble$ -- 1
+purify$ -- 20
+quote$ -- 0
+skip$ -- 537
+stack$ -- 0
+substring$ -- 388
+swap$ -- 124
+text.length$ -- 18
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 464
+warning$ -- 0
+while$ -- 37
+width$ -- 0
+write$ -- 153
+(There were 3 error messages)

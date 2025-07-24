@@ -1,0 +1,34 @@
+\chapter*{Anexos}
+\thispagestyle{empty}
+\markboth{ANEXOS}{ANEXOS} % Encabezados consistentes
+
+% Configuración local para hipervínculos
+\makeatletter
+\newcommand{\sectionanchored}[2]{%
+  \section*{#1}%
+  \hypertarget{sec:\thesection}{} % Crea ancla
+  \addcontentsline{toc}{section}{\protect\numberline{}#1}%
+}
+\makeatother
+
+% Secciones con hipervínculos
+\sectionanchored{Instrumentos Utilizados}{sec:instrumentos}
+En esta sección se describen detalladamente los instrumentos y herramientas empleadas para el desarrollo del proyecto, incluyendo frameworks, librerías, APIs y herramientas de prueba utilizadas.
+
+\sectionanchored{Datos Adicionales}{sec:datos}
+Aquí se presentan tablas, gráficos y cualquier otro dato complementario que soporta el análisis principal del estudio. 
+
+% Ejemplo de tabla adicional
+\begin{table}[h]
+\centering
+\caption{Ejemplo de tabla adicional}
+\begin{tabular}{lc}
+\toprule
+\textbf{Parámetro} & \textbf{Valor} \\
+\midrule
+Parámetro 1 & 123 \\
+Parámetro 2 & 456 \\
+\bottomrule
+\end{tabular}
+\label{tab:adicional}
+\end{table}
